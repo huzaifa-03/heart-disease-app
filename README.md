@@ -4,6 +4,7 @@ This project is a **Machine Learning-powered web application** built using **Pyt
 It predicts the likelihood of **heart disease** in a patient based on medical input parameters.  
 
 The app is designed to be **simple, fast, and accessible** so that anyone can use it to get quick predictions.  
+👉 [Heart Disease Prediction App](https://heart-disease-app-trkd5mqf2fvajygvsjeyvb.streamlit.app/)
 
 ---
 
