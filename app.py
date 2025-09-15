@@ -62,4 +62,14 @@ if st.button("Predict"):
     if prediction == 1:
         st.error("⚠️ High Risk of Heart Disease")
     else:
+
         st.success("✅ Low Risk of Heart Disease")
+
+    # ==========================
+    # Save user input + result
+    # ==========================
+    user_full_data = input_df.copy()
+    user_full_data["Prediction"] = prediction
+
+    # Save to CSV (append mode)
+    user_full_data.to_csv("user_inputs.csv", mode="a", header=False, index=False)
